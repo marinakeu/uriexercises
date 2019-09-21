@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 '''
 A fórmula para calcular a área de uma circunferência é: area = π . raio2.
 Considerando para este problema que π = 3.14159:
@@ -11,9 +9,11 @@ A entrada contém um valor de ponto flutuante (dupla precisão), no caso, a vari
 
 Saída
 Apresentar a mensagem "A=" seguido pelo valor da variável area, conforme exemplo abaixo,
-com 4 casas após o ponto decimal. Utilize variáveis de dupla precisão (double). 
+com 4 casas após o ponto decimal. Utilize variáveis de dupla precisão (double).
 '''
 
 raio = input()
+
 area = 3.14159 * float(raio) ** 2
+
 print("A=" + str(format(area, '.4f')))

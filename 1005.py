@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 '''
 Leia 2 valores de ponto flutuante de dupla precisão A e B,
 que correspondem a 2 notas de um aluno.
@@ -15,7 +13,9 @@ Calcule e imprima a variável MEDIA conforme exemplo abaixo,
 com 5 dígitos após o ponto decimal e com um espaço em branco antes e depois da igualdade. 
 '''
 
-A = float(input())
-B = float(input())
-MEDIA = ((A * 3.5) + (B * 7.5))/11
-print("MEDIA = " + str(format(MEDIA, '.5f')))
+a = float(input())
+b = float(input())
+
+media = ((a * 3.5) + (b * 7.5))/11
+
+print("MEDIA = " + str(format(media, '.5f')))
