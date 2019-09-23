@@ -17,4 +17,4 @@ b = input()
 
 soma = int(a) + int(b)
 
-print("SOMA = " + str(soma))
+print("SOMA = {}".format(soma))

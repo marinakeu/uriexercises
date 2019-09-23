@@ -14,6 +14,6 @@ com 4 casas após o ponto decimal. Utilize variáveis de dupla precisão (double
 
 raio = input()
 
-area = 3.14159 * float(raio) ** 2
+area = format((3.14159 * float(raio) ** 2), '.4f')
 
-print("A=" + str(format(area, '.4f')))
+print("A={}".format(area))
