@@ -10,12 +10,12 @@ O arquivo de entrada contém 2 valores com uma casa decimal cada um.
 
 Saída
 Calcule e imprima a variável MEDIA conforme exemplo abaixo,
-com 5 dígitos após o ponto decimal e com um espaço em branco antes e depois da igualdade. 
+com 5 dígitos após o ponto decimal e com um espaço em branco antes e depois da igualdade.
 '''
 
 a = float(input())
 b = float(input())
 
-media = ((a * 3.5) + (b * 7.5))/11
+media = format((((a * 3.5) + (b * 7.5))/11), '.5f')
 
-print("MEDIA = " + str(format(media, '.5f')))
+print("MEDIA = {}".format(media))

@@ -17,4 +17,4 @@ b = input()
 
 x = int(a) + int(b)
 
-print("X = " + str(x))
+print("X = {}".format(x))
