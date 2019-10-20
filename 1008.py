@@ -15,6 +15,8 @@ com um espaço em branco antes e depois da igualdade. No caso do salário,
 também deve haver um espaço em branco após o $.
 '''
 
+'''
+Solution 1
 employee_number = int(input())
 hours_amount = int(input())
 salary_per_hour = float(input())
@@ -23,3 +25,14 @@ salary = format((hours_amount * salary_per_hour), '.2f')
 
 print("NUMBER = {}".format(employee_number))
 print("SALARY = U$ {}".format(salary))
+'''
+
+# Solution 2
+employee_number = int(input())
+hours_amount = int(input())
+salary_per_hour = float(input())
+
+salary = format((hours_amount * salary_per_hour), '.2f')
+
+print("NUMBER =", employee_number)
+print("SALARY = U$", salary)
