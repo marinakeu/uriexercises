@@ -9,7 +9,7 @@ Imprima a saída conforme foi especificado.
 '''
 
 a, b, c =  [int(item) for item in input().split()]
-list = [a, b, c]
-list.sort()
+sorted_itens = [a, b, c]
+sorted_itens.sort()
 
-print(list[0], list[1], list[2],"" ,a, b, c, sep="\n")
+print(sorted_itens[0], sorted_itens[1], sorted_itens[2],"" ,a, b, c, sep="\n")
